@@ -8,7 +8,7 @@ def obtenes_presio(comida):
     pedrir_comida()
     menu=["pizza"
           "hambuerguesa"
-          "empanadas"]
+          "empanadas"]            
     return menu
 pedrir_comida()
 print(obtenes_presio())
