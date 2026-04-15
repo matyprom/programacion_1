@@ -12,7 +12,7 @@ while opcion!="terminar":
     if opcion=="pizza":
         total+=25
         pedido.append(opcion)
-        pizza+=1
+        pizza+=1    
         print("perfecto tomamos tu pedido")
     elif opcion=="empanadas":
         total+=40
