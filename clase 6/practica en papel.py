@@ -19,8 +19,12 @@
 
 nums=[10, -1,2,3,5,7,6,-7,8,-10]
 par=[]
+numeros=[]
 
-for i in range(len(nums)-1):
-    if i%2==0:
-        par.append(i)
+for i in range(len(nums)):
+    n=nums[i]%2
+    numeros.append(n)
+    if nums[i]%2==0:
+        par.append(nums[i])
 print (par)
+print(numeros)
