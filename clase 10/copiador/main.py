@@ -1,0 +1,1 @@
+archivo_entrada = open("entrada/frase.txt, "r)
