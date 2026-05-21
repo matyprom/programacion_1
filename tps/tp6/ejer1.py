@@ -1,4 +1,5 @@
-ciudades = ()
+ciudades = set()
+fechas = set()
 registros = [
     ("2026-04-07", "Bariloche", 18),
     ("2026-04-07", "Viedma", 31),
@@ -10,7 +11,16 @@ registros = [
     ("2026-04-21", "Viedma", 27),
     ("2026-04-21", "El Bolson", 19)
 ]
+registros= set(registros)
+
 for registros in registros:
-    ciudades.add(registros[1])
+    ciudad = registros[1]
+    varfechas= registros[0]
+    ciudades.add(ciudad)
+    fechas.add(varfechas)
+
+
+print(fechas)
 print(ciudades)
+
 #uh ni idea estoy re perdido
