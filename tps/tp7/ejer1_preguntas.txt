@@ -1,0 +1,19 @@
+¿Porque es importante validar los datos que ingresa un usuario?
+¿Que hace strip y en que se diferencia de split?
+¿Para que puede servir count cuando una linea tiene datos separados por comas o por punto y coma?
+¿Que problema pueden traer los espacios de mas al principio o al final de un dato?
+
+
+1- es importante validadar los datos que ingresa el usuaria ya que, si es codigo funciona con un tipo de dato espesifico 
+y el usuario ingresa otro, el codigo puede dar error.
+
+2- es una funcion que elimina los caracteres de al principio y al final de una cadena de texto, split es una funcion que 
+separa una cadena de texto por delimitador convirtiendolo en una lista
+
+3- count permite contar caracteres en una cadena de texto, si esta sepado por comas se puede untilizar para saber cuantos datos hay
+
+4- el prpblema que puede traer es que si yo quiero comparar ese dato con otro que no tiene espacios, da false cuando visualmente
+es el mismo dato
+
+
+

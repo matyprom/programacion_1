@@ -1,0 +1,20 @@
+linea = " mara ; programacion ; 8 "
+
+partes = linea.split(";")
+nombre = partes[0].strip().capitalize()
+materia = partes[1].strip().capitalize()
+nota_texto = partes[2].strip()
+
+if nota_texto.isnumeric():
+    nota = int(nota_texto)
+    print(f"{nombre} cursa {materia} y obtuvo {nota}")
+else:
+    print("La nota no es valida")
+
+----------------------------------------------------
+
+este codigo separa la cadena de texto y a los datos le saca los espacios al principio y al final y pone la primer letra mayuscula,
+luego verifica si la nota es numerica, si es verdadero imprime los datos por separado y si es falsa imprime que no es valido
+
+
+
