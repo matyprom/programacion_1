@@ -1,0 +1,5 @@
+lista: es una variable que contienendatos dentro con la posivilidad de modificar
+tuplas: es una varible que contiene datos, no se puede modificar
+conjunto: es una variable que contiene datos sin repetirse y sin un orden especifico
+diccionarios: es una estructura de datos que permite almacenar datos con una clave y el valor de esa clave.
+
