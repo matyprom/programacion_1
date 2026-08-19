@@ -1,0 +1,11 @@
+JSON es un tipo de archivo que me sirve para mandar datos entre apps o paginas web. 
+y poder extraer esa info.
+similar a un diccionario
+
+FORMATO JSON:
+usar {} para objetos
+usar [] para arrays
+claves entre comillas dobles "" ""
+true / false
+null
+
